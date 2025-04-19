@@ -12,6 +12,6 @@
   "license": "ISC",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"No tests specified\" && exit 0"  // Add this line
+    "test": "echo \"No tests specified\" && exit 0"   
   }
 }
