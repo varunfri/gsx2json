@@ -1,19 +1,17 @@
 {
-  "name": "@varunfri/gsx2json",
+  "name": "gsx2json",
   "version": "1.0.0",
   "description": "Google Spreadsheet to JSON API app",
   "main": "app.js",
   "author": "Nick Moreton",
-  "license": "ISC",
-  "scripts": {
-    "start": "node app.js"
-  },
   "dependencies": {
     "body-parser": "^1.x.x",
     "express": "^4.x.x",
     "request": "^2.69.0"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+  "license": "ISC",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"No tests specified\" && exit 0"  // Add this line
   }
 }
